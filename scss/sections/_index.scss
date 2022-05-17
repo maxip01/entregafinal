@@ -1,0 +1,54 @@
+@import "../base/mixin";
+@import '../base/variable';
+//section one carrusel
+.index {
+    section {
+        .itemjar {
+            display: flex;
+            padding: 0;
+            width: 300%;
+            li {
+                list-style: none;
+                width: 100%;
+                a {
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .article-container {
+            display: flex;
+            justify-content: center;
+            align-items: space-around;
+            background-color: $Special;
+        }
+        .carrusel-container {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        div{
+            .martin{
+               background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../images/hombre3.png);
+            }
+           .lombriz{
+                background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../images/lombriz.png);
+            }
+            .aflorales{
+               background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../../images/arreglof.png);
+            }
+            h2{
+                font-size: 30px;
+                text-transform: uppercase;
+                font-family: $regular-font;
+                color:#E8E1D9;
+                margin-bottom: 10px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+//base
+@import '../scss/base/variable';
+@import '../scss/base/reset';
+@import '../scss/base/generales';
+@import '../scss/base/mixin';
+
+//components
+@import '../scss/components/header';
+@import '../scss/components/footer';
+
+//sections
+@import '../scss/sections/index';
+@import '../scss/sections/productos';
+@import '../scss/sections/workshop';
+@import '../scss/sections/servicios';
+@import '../scss/sections/contacto';
+@import '../scss/sections/nosotros';

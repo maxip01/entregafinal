@@ -1,0 +1,32 @@
+
+@mixin animation ($animation, $duration, $times) {
+    animation: $animation, $duration, $times;
+}
+
+/*@mixin keyframes($carrusel) {
+    @keyframes itemjar{
+        0% {
+            margin-left: 0;
+        }
+
+        30% {
+            margin-left: 0;
+        }
+
+        35% {
+            margin-left: -100%;
+        }
+
+        55% {
+            margin-left: -100%;
+        }
+
+        60% {
+            margin-left: -200%;
+        }
+
+        100% {
+            margin-left: -200%;
+        }
+    }
+}*/

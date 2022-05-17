@@ -1,0 +1,275 @@
+/*colores*/
+/*nueva*/
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+/*font-family: 'Macondo', cursive;*/
+/*Box sizing rules*/
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*remove default margin*/
+/*@mixin keyframes($carrusel) {
+    @keyframes itemjar{
+        0% {
+            margin-left: 0;
+        }
+
+        30% {
+            margin-left: 0;
+        }
+
+        35% {
+            margin-left: -100%;
+        }
+
+        55% {
+            margin-left: -100%;
+        }
+
+        60% {
+            margin-left: -200%;
+        }
+
+        100% {
+            margin-left: -200%;
+        }
+    }
+}*/
+/*Header start*/
+header {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #125c13;
+}
+header section {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+  align-items: center;
+  margin: 10px;
+}
+header section .section-sales {
+  background-color: #E8E1D9;
+  align-items: center;
+}
+header section a img {
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  -webkit-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+}
+
+header section nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header section nav ul li {
+  list-style: none;
+}
+header section nav ul li a {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Macondo", "cursive";
+  font-weight: 1px;
+  color: #E8E1D9;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px black;
+  text-decoration: none;
+  font-size: 22px;
+}
+header section nav ul li a:hover {
+  color: #F4A442;
+  text-shadow: none;
+  transition: 1s;
+}
+
+header section img {
+  width: 40px;
+  height: 40px;
+}
+
+/*header end*/
+footer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #125C13;
+}
+footer div .footer-logo {
+  width: 100px;
+  height: 100px;
+  /*margin-top: 10px;
+  margin-left: 5px;*/
+  -webkit-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+}
+footer div .footer-map {
+  margin-top: 20px;
+}
+footer div .footer-redes {
+  display: flex;
+  flex-direction: column;
+  background-color: #E8E1D9;
+  margin-top: 5px;
+  padding: 3px;
+  border: solid 2px black;
+}
+
+footer div img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: solid 2px black;
+}
+
+footer div ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer div ul li {
+  margin-right: 20px;
+  width: 30%;
+  height: auto;
+  list-style: none;
+}
+footer div ul li a {
+  text-decoration: none;
+  font-family: "Roboto", "sans-serif";
+  font-size: 10px;
+  color: #E8E1D9;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+  line-height: 1;
+}
+footer div ul li a:hover {
+  color: #F4A442;
+  text-shadow: none;
+  transition: 1s;
+}
+
+/*@mixin keyframes($carrusel) {
+    @keyframes itemjar{
+        0% {
+            margin-left: 0;
+        }
+
+        30% {
+            margin-left: 0;
+        }
+
+        35% {
+            margin-left: -100%;
+        }
+
+        55% {
+            margin-left: -100%;
+        }
+
+        60% {
+            margin-left: -200%;
+        }
+
+        100% {
+            margin-left: -200%;
+        }
+    }
+}*/
+/*colores*/
+/*nueva*/
+/*font-family: 'Macondo', cursive;*/
+.index section .itemjar {
+  display: flex;
+  padding: 0;
+  width: 300%;
+}
+.index section .itemjar li {
+  list-style: none;
+  width: 100%;
+}
+.index section .itemjar li a img {
+  width: 100%;
+}
+.index section .article-container {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  background-color: #F0BB62;
+}
+.index section .carrusel-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.index section div .martin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/hombre3.png);
+}
+.index section div .lombriz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/lombriz.png);
+}
+.index section div .aflorales {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/arreglof.png);
+}
+.index section div h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Roboto", "sans-serif";
+  color: #E8E1D9;
+  margin-bottom: 10px;
+}
+.index section div p {
+  text-align: center;
+}
+
+/*colores*/
+/*nueva*/
+/*font-family: 'Macondo', cursive;*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  gap: 15px;
+  margin: 5px;
+}
+.grid-container div {
+  position: relative;
+}
+.grid-container div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
+}
+.grid-container div p {
+  bottom: 0;
+  position: absolute;
+  color: #F4EEA9;
+  background-color: rgba(0, 0, 0, 0.502);
+  text-transform: uppercase;
+  font-family: "Akshar", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  margin-left: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
