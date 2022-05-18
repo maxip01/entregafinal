@@ -7,9 +7,12 @@
             display: flex;
             padding: 0;
             width: 300%;
+            animation: itemjar 20s linear infinite;
+
             li {
                 list-style: none;
                 width: 100%;
+                
                 a {
                     img {
                         width: 100%;

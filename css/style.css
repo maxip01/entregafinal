@@ -18,33 +18,6 @@
 }
 
 /*remove default margin*/
-/*@mixin keyframes($carrusel) {
-    @keyframes itemjar{
-        0% {
-            margin-left: 0;
-        }
-
-        30% {
-            margin-left: 0;
-        }
-
-        35% {
-            margin-left: -100%;
-        }
-
-        55% {
-            margin-left: -100%;
-        }
-
-        60% {
-            margin-left: -200%;
-        }
-
-        100% {
-            margin-left: -200%;
-        }
-    }
-}*/
 /*Header start*/
 header {
   height: auto;
@@ -166,33 +139,6 @@ footer div ul li a:hover {
   transition: 1s;
 }
 
-/*@mixin keyframes($carrusel) {
-    @keyframes itemjar{
-        0% {
-            margin-left: 0;
-        }
-
-        30% {
-            margin-left: 0;
-        }
-
-        35% {
-            margin-left: -100%;
-        }
-
-        55% {
-            margin-left: -100%;
-        }
-
-        60% {
-            margin-left: -200%;
-        }
-
-        100% {
-            margin-left: -200%;
-        }
-    }
-}*/
 /*colores*/
 /*nueva*/
 /*font-family: 'Macondo', cursive;*/
@@ -200,6 +146,7 @@ footer div ul li a:hover {
   display: flex;
   padding: 0;
   width: 300%;
+  animation: itemjar 20s linear infinite;
 }
 .index section .itemjar li {
   list-style: none;
@@ -270,6 +217,209 @@ footer div ul li a:hover {
   font-family: "Josefin Sans", sans-serif;
   font-family: "Playfair Display", serif;
   margin-left: 3px;
+}
+
+.workshop-container {
+  height: 80vh;
+  width: 100%;
+}
+.workshop-container .container-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: rgba(62, 124, 23, 0.5137254902);
+}
+.workshop-container .container-item .two {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.workshop-container .container-item .workshop-item {
+  flex-direction: column;
+  width: 50%;
+}
+.workshop-container .container-item h2 .item-title {
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #F4A442;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.workshop-container .container-item h2 .item-title2 {
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #F4A442;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.workshop-container .container-item p .item-text {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.workshop-container .container-item p .item-text2 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.jardin-container div {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+}
+.jardin-container div .jardineria {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/servicios/sjardin2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.jardin-container div .vertical {
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.507)), url(../../images/servicios/jvf.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 5px;
+}
+.jardin-container div .florista {
+  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.507)), url(../../images/servicios/arreglof1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.jardin-container div h2 {
+  font-size: 30px;
+  color: #E8E1D9;
+  text-align: start;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+.jardin-container div .jardin-title2 {
+  text-align: end;
+  margin-right: 10px;
+}
+.jardin-container div p {
+  width: 70%;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #E8E1D9;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-align: start;
+}
+.jardin-container div .jardin-text2 {
+  margin-right: 10px;
+  text-align: end;
+}
+
+.contact_form .formulario {
+  background-color: #ecd3b3;
+}
+.contact_form .formulario .cajacontacto {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 25px;
+  background-color: #db9418;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact_form .formulario .cajacontacto h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: #0a0909;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.contact_form .formulario .cajacontacto h3 {
+  color: #000000;
+  text-align: center;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+.contact_form .formulario .cajaformulario {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 25px;
+  background-color: #db9418;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_form .formulario .cajaformulario form input {
+  background-color: #E8E1D9;
+  width: 90%;
+  height: 30px;
+  border-radius: 10px;
+  border-style: solid 1px black;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin: 0.5rem;
+}
+.contact_form .formulario .cajaformulario form textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 10px;
+  border-style: solid 1px black;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.contact_form .formulario .cajaformulario form p {
+  color: rgb(2, 2, 2);
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.contact_form .formulario .cajaformulario form button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #9c6910;
+  border-color: #9c6910;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+  text-align: center;
+}
+.contact_form .formulario .cajaformulario form button p {
+  color: rgb(2, 2, 2);
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

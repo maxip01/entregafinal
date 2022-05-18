@@ -1,0 +1,63 @@
+.jardin-container {
+    div {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5px;
+
+        .jardineria {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/servicios/sjardin2.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .vertical {
+            background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.507)), url(../../images/servicios/jvf.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 5px;
+        }
+
+        .florista {
+            background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.507)), url(../../images/servicios/arreglof1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #E8E1D9;
+            text-align: start;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin-left: 10px;
+            text-transform: uppercase;
+        }
+
+        .jardin-title2 {
+            text-align: end;
+            margin-right: 10px;
+        }
+
+        p { width: 70%;
+            font-family: 'Oswald', sans-serif;
+            font-family: 'Roboto Condensed', sans-serif;
+            color: #E8E1D9;
+            margin-top: 30px;
+            margin-left: 10px;
+            text-align: start;
+        }
+        .jardin-text2{
+            margin-right: 10px;
+            text-align: end;
+        }
+    }
+}

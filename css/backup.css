@@ -284,8 +284,7 @@ font-family: 'Playfair Display', serif;*/
     background-color: #F4A442;
     margin-left: 20px;
     padding: 10px;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
 }
 .item-text2{
     font-family: 'Playfair Display', serif;
@@ -293,8 +292,7 @@ font-family: 'Playfair Display', serif;*/
     line-height: 1.5;
     font-weight: bold;
     margin-top: 20px;
-    text-align: center;
-    
+    text-align: center;  
 }
 .item-title{
     font-family: 'Playfair Display', serif;
@@ -306,7 +304,6 @@ font-family: 'Playfair Display', serif;*/
     margin-left: 40px;
     padding: 10px;
     border-radius: 15px;
-
 }
 .item-text{
     font-family: 'Playfair Display', serif;
@@ -322,7 +319,6 @@ font-family: 'Playfair Display', serif;*/
 .servicio{
     width: 100%;
     height: 300px;
-    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -414,8 +410,7 @@ textarea{
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
-    padding-top: 15px; 
-    
+    padding-top: 15px;   
 }
 button{
     height: 45px; 
@@ -431,14 +426,14 @@ button{
     width: 420px;   
     cursor: pointer;
     text-align: center;
-  } 
+  }
 button p{
     color: rgb(2, 2, 2);
     font-weight: bold;   
 }
 
 p{
-    color: #0e0e0e;
+    color: rgb(2, 2, 2);
     font-weight: bold;
     font-family:'Courier New', Courier, monospace;
 }  
@@ -464,7 +459,6 @@ h3{
     background-color: #db9418;  
     margin:0 auto;
     margin-bottom: 5px;
-        
     display: flex;
     justify-content: center;
     align-items: center;
@@ -478,7 +472,6 @@ h3{
     background-color: #db9418;
     margin: 0 auto;
     margin-bottom: 5px;
-   
     display: flex;
     justify-content: center;
     align-items: center;

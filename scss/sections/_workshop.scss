@@ -1,0 +1,70 @@
+.workshop-container {
+    height: 80vh;
+    width: 100%;
+
+    .container-item {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        background-color: #3e7c1783;
+
+        .two {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 10px;
+        }
+
+        .workshop-item {
+            flex-direction: column;
+            width: 50%;
+        }
+
+        h2 {
+            .item-title {
+                font-family: 'Playfair Display', serif;
+                font-family: 'Poppins', sans-serif;
+                font-size: 30px;
+                text-transform: uppercase;
+                text-align: center;
+                background-color: #F4A442;
+                margin-left: 40px;
+                padding: 10px;
+                border-radius: 15px;
+            }
+
+            .item-title2 {
+                font-family: 'Playfair Display', serif;
+                font-family: 'Poppins', sans-serif;
+                font-size: 30px;
+                text-transform: uppercase;
+                text-align: center;
+                background-color: #F4A442;
+                margin-left: 20px;
+                padding: 10px;
+                border-radius: 15px;
+            }
+        }
+
+        p {
+            .item-text {
+                font-family: 'Playfair Display', serif;
+                font-size: 15px;
+                line-height: 1.5;
+                margin-top: 20px;
+                margin-left: 40px;
+                font-weight: bold;
+                text-align: center;
+            }
+
+            .item-text2 {
+                font-family: 'Playfair Display', serif;
+                font-size: 15px;
+                line-height: 1.5;
+                font-weight: bold;
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
