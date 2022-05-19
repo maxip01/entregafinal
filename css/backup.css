@@ -21,7 +21,7 @@ font-family: 'Playfair Display', serif;*/
     justify-content: space-between;
     background-color: #125C13;
 }
-.section-logo img{
+.header-logo img{
     width: 100px;
     height: 100px;
     margin:3px;
@@ -56,7 +56,7 @@ font-family: 'Playfair Display', serif;*/
     transition: 1s; 
 }
 
-.section-sales{
+.header-sales{
     display: flex;
     justify-content: space-around;
     width: 10%;
@@ -127,13 +127,13 @@ font-family: 'Playfair Display', serif;*/
     text-align: center;
 }
 .martin{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/hombre3.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/hombre3.png);
 }
 .lombriz{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/lombriz.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/lombriz.png);
 }
 .aflorales{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/arreglof.png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../images/arreglof.png);
 }
 
 .article-title{
