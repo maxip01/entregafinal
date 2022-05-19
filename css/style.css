@@ -422,4 +422,31 @@ footer div ul li a:hover {
   font-weight: bold;
 }
 
+.main-nosotros {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  height: 50vh;
+}
+.main-nosotros h1 {
+  background-image: url(../../images/nosotros1.png);
+}
+.main-nosotros .mision {
+  border-top: #db9418 0.3em solid;
+  width: 33%;
+}
+.main-nosotros .vision {
+  border-top: #b81800 0.3em solid;
+  width: 33%;
+}
+.main-nosotros .valores {
+  border-top: #9600b4 0.3em solid;
+  width: 33%;
+}
+.main-nosotros p, .main-nosotros h2 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
