@@ -273,7 +273,7 @@ font-family: 'Playfair Display', serif;*/
     margin-left: 10px;
 }
 
-.item-title2{
+.workshop-title2{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -284,7 +284,7 @@ font-family: 'Playfair Display', serif;*/
     padding: 10px;
     border-radius: 15px; 
 }
-.item-text2{
+.workshop-text2{
     font-family: 'Playfair Display', serif;
     font-size: 15px;
     line-height: 1.5;
@@ -292,7 +292,7 @@ font-family: 'Playfair Display', serif;*/
     margin-top: 20px;
     text-align: center;  
 }
-.item-title{
+.workshop-title{
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -303,7 +303,7 @@ font-family: 'Playfair Display', serif;*/
     padding: 10px;
     border-radius: 15px;
 }
-.item-text{
+.workshop-text{
     font-family: 'Playfair Display', serif;
     font-size: 15px;
     line-height: 1.5;
@@ -748,15 +748,13 @@ h3{
         transition: 1s; 
     }
     
-    .section-sales{
+    .header-sales{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         margin-top: 5px;
         margin-bottom: 5px;
         background-color:#E8E1D9;
-        
-       
     }
     .sales-img{
         width: 20px;

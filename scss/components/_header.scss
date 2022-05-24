@@ -14,6 +14,15 @@
                 -webkit-box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
                 -moz-box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
                 box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
+                @media  (max-width:450px){
+                    width: 50px;
+                    height: 50px;
+                    margin:3px;
+                    -webkit-box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
+                    box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
+                }
+               
             }
         }
     }
@@ -34,6 +43,36 @@
                 color: #E8E1D9;
                 text-transform: uppercase;
                 text-shadow: 2px 2px 2px black;
+                @media  (max-width:450px){
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    text-decoration: none;
+                    font-family: 'Akshar', sans-serif;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-family: 'Playfair Display', serif;
+                    font-size: 10px;    
+                    font-weight: bold;
+                    color: #E8E1D9;
+                    text-transform: uppercase;
+                    text-shadow: 2px 2px 2px black;
+                }
+                @media screen and (min-width:451px) and (max-width:960px){
+                    margin: 10px;
+                    text-decoration: none;
+                    font-family: 'Akshar', sans-serif;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-family: 'Playfair Display', serif;
+                    font-size: 10px;    
+                    font-weight: bold;
+                    color: #E8E1D9;
+                    text-transform: uppercase;
+                    text-shadow: 2px 2px 2px black;
+            
+                }
+
+                
+        
+
             }
             display: flex;
             justify-content: space-between;
@@ -41,10 +80,52 @@
             width: 90%;
             height: 100px;
             list-style: none;
+            @media  (max-width:450px){
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 90%;
+                height: 75px;
+            }
+            @media screen and (min-width:451px) and (max-width:960px){
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                width: 40%;
+                height: 50px;        
+            }
+
+
         }
     }
     .header-sales{
+        @media  (max-width:450px){
+            display: flex;
+            flex-direction: column;
+            width: 10%;
+            background-color:#E8E1D9;
+            align-items: center;
+            margin: 10px; 
+        }
+        @media screen and (min-width:451px) and (max-width:960px){
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color:#E8E1D9;    
+        }
+
         .sales-img{
+            @media  (max-width:450px){
+                width: 20px;
+                height: 20px;
+            }
+            @media screen and (min-width:451px) and (max-width:960px){
+                width: 20px;
+                height: 20px;
+            }
+
             width: 40px;
             height: 40px;
         }        
@@ -55,6 +136,23 @@
         align-items: center;
         margin: 20px;    
     }
+
+    @media  (max-width:450px){
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #125C13;
+    }
+    @media screen and (min-width:451px) and (max-width:960px){
+        height: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #125C13;
+    }
+
+ 
 }
 
 /*header end*/

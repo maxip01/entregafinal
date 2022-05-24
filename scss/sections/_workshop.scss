@@ -1,64 +1,71 @@
 .workshop-container{
     height: 80vh;
     width: 100%;
-    .container-item{
-        .workshop-item{
-            .workshop-title{
-                font-family: 'Playfair Display', serif;
-                font-family: 'Poppins', sans-serif;
-                font-size: 30px;
-                text-transform: uppercase;
-                text-align: center;
-                background-color: #F4A442;
-                margin-left: 40px;
-                padding: 10px;
-                border-radius: 15px;
+        .container-itemtwo{
+            div{
+                .workshop-text2{
+                    font-family: 'Playfair Display', serif;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    text-align: center;  
+                }                
+                .workshop-title2{
+                    font-family: 'Playfair Display', serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    background-color: #F4A442;
+                    margin-left: 20px;
+                    padding: 10px;
+                    border-radius: 15px; 
+                }
+                .workshop-item{
+                    flex-direction: column;
+                    width: 50%;
+                }
+
             }
-            .workshop-text{
-                font-family: 'Playfair Display', serif;
-                font-size: 15px;
-                line-height: 1.5;
-                margin-top: 20px;
-                margin-left: 40px;
-                font-weight: bold;
-                text-align: center;
-            }            
-            flex-direction: column;
-            width: 50%;
-        }        
-        display: flex;
-        align-items: center;
-        background-color: #3e7c1783;       
-    }
-    .container-itemtwo{
-        .workshop-item{
-            .workshop-text2{
-                font-family: 'Playfair Display', serif;
-                font-size: 15px;
-                line-height: 1.5;
-                font-weight: bold;
-                margin-top: 20px;
-                text-align: center;  
-            }            
-            .workshop-title2{
-                font-family: 'Playfair Display', serif;
-                font-family: 'Poppins', sans-serif;
-                font-size: 30px;
-                text-transform: uppercase;
-                text-align: center;
-                background-color: #F4A442;
-                margin-left: 20px;
-                padding: 10px;
-                border-radius: 15px; 
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 10px;
+        }
+        .container-item{
+            div{
+                p{
+                    font-family: 'Playfair Display', serif;
+                    font-size: 15px;
+                    line-height: 1.5;
+                    margin-top: 20px;
+                    margin-left: 40px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                
+                h2{
+                    font-family: 'Playfair Display', serif;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    background-color: #F4A442;
+                    margin-left: 40px;
+                    padding: 10px;
+                    border-radius: 15px;
+                }                
+                .workshop-item{
+                    flex-direction: column;
+                    width: 50%;
+                }
+
             }
-            
-            flex-direction: column;
-            width: 50%;
-        }        
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #3e7c1783;
-    }
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            background-color: #3e7c1783;
+        }
+    
 }
