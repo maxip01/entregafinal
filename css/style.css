@@ -131,7 +131,7 @@
 
 .index .carrusel-container {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   overflow: hidden;
   object-fit: cover;
 }
@@ -170,7 +170,7 @@
 }
 .index .article-container {
   width: 100%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   margin: 5px;
   justify-content: center;
@@ -305,61 +305,67 @@
   border-radius: 15px;
 }
 
-.jardin-container div {
+.jardin-container {
   width: 100%;
-  height: 300px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 5px;
 }
-.jardin-container div .jardineria {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/servicios/sjardin2.png);
+.jardin-container .servicio-jardineria {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/servicios/sjardin2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 300px;
 }
-.jardin-container div .vertical {
-  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.507)), url(../../images/servicios/jvf.png);
+.jardin-container .servicio-vertical {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/servicios/jvf.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
-  margin: 5px;
+  height: 300px;
 }
-.jardin-container div .florista {
-  background: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.507)), url(../../images/servicios/arreglof1.png);
+.jardin-container .servicio-vertical .jardin-title2 {
+  text-align: end;
+  margin-right: 10px;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.jardin-container .servicio-vertical .jardin-text2 {
+  margin-right: 10px;
+  text-align: end;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+.jardin-container .servicio-florista {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/servicios/arreglof1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 300px;
 }
-.jardin-container div h2 {
+.jardin-container .jardin-title {
   font-size: 30px;
-  color: #E8E1D9;
+  color: white;
   text-align: start;
-  font-family: "Oswald", sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
   margin-left: 10px;
   text-transform: uppercase;
 }
-.jardin-container div .jardin-title2 {
-  text-align: end;
-  margin-right: 10px;
-}
-.jardin-container div p {
+.jardin-container .jardin-text {
   width: 70%;
   font-family: "Oswald", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
-  color: #E8E1D9;
+  color: white;
   margin-top: 30px;
   margin-left: 10px;
   text-align: start;
-}
-.jardin-container div .jardin-text2 {
-  margin-right: 10px;
-  text-align: end;
+  font-size: 22px;
 }
 
 .contact_form .formulario {
@@ -448,31 +454,46 @@
   font-weight: bold;
 }
 
-.main-nosotros {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  overflow: hidden;
-  height: 50vh;
-}
-.main-nosotros h1 {
-  background-image: url(../../images/nosotros1.png);
-}
-.main-nosotros .mision {
-  border-top: #db9418 0.3em solid;
-  width: 33%;
-}
-.main-nosotros .vision {
-  border-top: #b81800 0.3em solid;
-  width: 33%;
-}
-.main-nosotros .valores {
-  border-top: #9600b4 0.3em solid;
-  width: 33%;
-}
-.main-nosotros p, .main-nosotros h2 {
+.main-nosotros .destacado-nosotros {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   text-align: center;
+  font-size: 19px;
+  background-color: limegreen;
+  padding: 10px;
+}
+.main-nosotros .destacado-titulo {
+  background-image: url(../images/nosotros/nosotros.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+.main-nosotros div {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+}
+.main-nosotros div .nosotros-titulo {
+  border-top: yellow 6px solid;
+  text-align: center;
+  font-size: 30px;
+}
+.main-nosotros div .nosotros-titulo2 {
+  border-top: red 6px solid;
+  text-align: center;
+  font-size: 30px;
+}
+.main-nosotros div .nosotros-titulo3 {
+  border-top: green 6px solid;
+  text-align: center;
+  font-size: 30px;
+}
+.main-nosotros div .nosotros-texto {
+  text-align: center;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

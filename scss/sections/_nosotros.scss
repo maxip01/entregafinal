@@ -1,29 +1,46 @@
 .main-nosotros{
-        h1{
-            background-image: url(../../images/nosotros1.png);
-        }
-        display: flex;
-        align-items: center;
+    .destacado-nosotros {
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        font-size: 19px; 
+        background-color: limegreen;
+        padding: 10px;
+    }
+    .destacado-titulo {
+        background-image: url(../images/nosotros/nosotros.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 150px;
+        text-align: center;
+        font-size: 50px;
+        color: black;
+    }
+    div{
+        display: flex;  
         flex-direction: column;
-        width: 100%;
-        overflow: hidden;
-        height: 50vh;
-        
-        
-        .mision{
-            border-top: #db9418 0.3em solid;
-            width: 33%;
+        height: 40%;
+        .nosotros-titulo{
+            border-top: yellow 6px solid;
+            text-align: center;
+            font-size: 30px;
+        }
+        .nosotros-titulo2{
+            border-top: red 6px solid;
+            text-align: center;
+            font-size: 30px;
+        }
+        .nosotros-titulo3{
+            border-top: green 6px solid;
+            text-align: center;
+            font-size: 30px;
+        }
+        .nosotros-texto{
+            text-align: center;
+            font-size: 18px;
             
+
         }
-        .vision{
-            border-top: #b81800 0.3em solid;
-            width: 33%;
-            
-        }
-        .valores{
-            border-top: #9600b4 0.3em solid;
-            width: 33%;
-        }
-        p,h2{text-align: center;
-        }
+    }
+    
 }
