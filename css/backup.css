@@ -168,8 +168,7 @@ font-family: 'Playfair Display', serif;*/
     margin-left: 5px;
     -webkit-box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);
-    
+    box-shadow: 10px 10px 6px 1px rgba(0,0,0,0.75);   
 }
 .footer-map{
     margin-top: 15px; 
@@ -256,7 +255,6 @@ font-family: 'Playfair Display', serif;*/
 .workshop-container{
     height: 80vh;
     width: 100%;
-    
 }
 .container-item{
     display: flex;
@@ -268,7 +266,7 @@ font-family: 'Playfair Display', serif;*/
     flex-direction: column;
     width: 50%;
 }
-.two{
+.container-itemtwo{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;

@@ -5,12 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 /*font-family: 'Macondo', cursive;*/
 /*Box sizing rules*/
-@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
 *,
 *::before,
 *::after {
@@ -72,75 +66,74 @@
 }
 
 /*header end*/
-footer {
-  height: auto;
+.footer-container {
+  height: 50%;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   background-color: #125C13;
 }
-footer div .footer-logo {
-  width: 100px;
-  height: 100px;
-  /*margin-top: 10px;
-  margin-left: 5px;*/
-  -webkit-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
-}
-footer div .footer-map {
-  margin-top: 20px;
-}
-footer div .footer-redes {
+.footer-container .footer-navegable .item {
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-top: 5px;
+  width: 30%;
+  height: auto;
+}
+.footer-container .footer-navegable .list {
+  text-decoration: none;
+  font-family: "Akshar", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+  font-weight: 1px;
+  color: #E8E1D9;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+  line-height: 2;
+}
+.footer-container .footer-navegable .list:hover {
+  color: #F4A442;
+  text-shadow: none;
+  transition: 1s;
+}
+.footer-container .footer-redes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
   flex-direction: column;
   background-color: #E8E1D9;
   margin-top: 5px;
+  margin-bottom: 5px;
   padding: 3px;
   border: solid 2px black;
 }
-
-footer div img {
+.footer-container .footer-redes .img {
   width: 30px;
   height: 30px;
   margin: 5px;
   border: solid 2px black;
 }
-
-footer div ul {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.footer-container .footer-map {
+  margin-top: 15px;
 }
-footer div ul li {
-  margin-right: 20px;
-  width: 30%;
-  height: auto;
-  list-style: none;
-}
-footer div ul li a {
-  text-decoration: none;
-  font-family: "Roboto", "sans-serif";
-  font-size: 10px;
-  color: #E8E1D9;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 2px black;
-  line-height: 1;
-}
-footer div ul li a:hover {
-  color: #F4A442;
-  text-shadow: none;
-  transition: 1s;
+.footer-container .footer-logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 5px;
+  -webkit-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 6px 1px rgba(0, 0, 0, 0.75);
 }
 
-/*colores*/
-/*nueva*/
-/*font-family: 'Macondo', cursive;*/
 .index .carrusel-container {
   width: 100%;
-  margin: auto;
+  height: 70vh;
   overflow: hidden;
+  object-fit: cover;
 }
 .index .carrusel-container ul {
   display: flex;
@@ -177,7 +170,7 @@ footer div ul li a:hover {
 }
 .index .article-container {
   width: 100%;
-  height: 100%;
+  height: 50vh;
   display: flex;
   margin: 5px;
   justify-content: center;
@@ -188,42 +181,36 @@ footer div ul li a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
   margin: 5px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/arreglof.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/arreglof.png);
 }
 .index .article-container .lombriz {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
   margin: 5px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/lombriz.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/lombriz.png);
 }
 .index .article-container .martin {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
   margin: 5px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hombre3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/hombre3.png);
 }
 
-/*colores*/
-/*nueva*/
-/*font-family: 'Macondo', cursive;*/
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -231,27 +218,27 @@ footer div ul li a:hover {
   gap: 15px;
   margin: 5px;
 }
-.grid-container div {
+.grid-container .grid-producto {
   position: relative;
 }
-.grid-container div img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  -webkit-box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
-}
-.grid-container div p {
+.grid-container .grid-producto .grid-texto {
   bottom: 0;
   position: absolute;
-  color: #F4EEA9;
+  color: white;
   background-color: rgba(0, 0, 0, 0.502);
   text-transform: uppercase;
   font-family: "Akshar", sans-serif;
   font-family: "Josefin Sans", sans-serif;
   font-family: "Playfair Display", serif;
   margin-left: 3px;
+}
+.grid-container .grid-producto .grid-foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 17px 14px -4px rgba(0, 0, 0, 0.75);
 }
 
 .workshop-container {
@@ -261,20 +248,13 @@ footer div ul li a:hover {
 .workshop-container .container-item {
   display: flex;
   align-items: center;
-  margin: 10px;
   background-color: rgba(62, 124, 23, 0.5137254902);
-}
-.workshop-container .container-item .two {
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 10px;
 }
 .workshop-container .container-item .workshop-item {
   flex-direction: column;
   width: 50%;
 }
-.workshop-container .container-item h2 .item-title {
+.workshop-container .container-item .workshop-item .workshop-title {
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
@@ -285,7 +265,35 @@ footer div ul li a:hover {
   padding: 10px;
   border-radius: 15px;
 }
-.workshop-container .container-item h2 .item-title2 {
+.workshop-container .container-item .workshop-item .workshop-text {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.workshop-container .container-itemtwo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(62, 124, 23, 0.5137254902);
+}
+.workshop-container .container-itemtwo .workshop-item {
+  flex-direction: column;
+  width: 50%;
+}
+.workshop-container .container-itemtwo .workshop-item .workshop-text2 {
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+.workshop-container .container-itemtwo .workshop-item .workshop-title2 {
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
@@ -295,23 +303,6 @@ footer div ul li a:hover {
   margin-left: 20px;
   padding: 10px;
   border-radius: 15px;
-}
-.workshop-container .container-item p .item-text {
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  line-height: 1.5;
-  margin-top: 20px;
-  margin-left: 40px;
-  font-weight: bold;
-  text-align: center;
-}
-.workshop-container .container-item p .item-text2 {
-  font-family: "Playfair Display", serif;
-  font-size: 15px;
-  line-height: 1.5;
-  font-weight: bold;
-  margin-top: 20px;
-  text-align: center;
 }
 
 .jardin-container div {
